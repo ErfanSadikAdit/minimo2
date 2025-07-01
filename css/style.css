@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262; ;
+}
+header{
+    padding: 30px;
+   
+}
+ .container{
+    overflow: hidden;
+        margin: 0 auto;
+       width: 90%;
+        }
+
+.logo{
+margin-top:15px;  ;
+float: left;
+width: 10%;
+/* border: 1px solid red; */
+}
+.logo a{
+
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 65%;
+    /* border: 1PX solid red; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+     margin: 0px 45px;
+     color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    
+}
+.menu ul li: :last-child a {
+    margin-right: 0;
+}
+.menu ul li a:hover{
+     border: 1PX solid #626262;
+}
+.gateway{
+padding: 100px 0 20px;
+}
+.g_content{
+
+}
+.container2{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+   
+}
+
+.c_light{
+font-family:"Ubuntu", sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+    }
+.c_title{
+margin: 20px 0 20 px;
+ font-size: 30px;
+ font-weight: 400;
+}
+ .c_text{
+    margin: 0;
+ line-height: 24px;
+
+}
+    .g_link{
+        /* text-decoration: none; */
+        margin-top: 45px;
+        display: inline-block;
+        color: #626262;
+        
+    }
+    .blog{}
+    .sb_item{
+        margin-top: 80px;
+        float: left;
+        width: 45%;
+        
+    }
+    .sb_item:nth-child(even){
+      margin-left: 60px;}
+     .sb_img{
+        margin-bottom: 20px;
+     }
+ .sb_img img {
+    width: 100%;
+    
+ }
+
+ .newsletter{
+    min-height: 400px;
+    background-color: #f0f0f0;}
+    .blog2{
+        padding-top: 20px;
+    }
+    .load{
+        padding: 100px 0 50px;
+        text-align: center;
+    }
+    .load button{
+        width: 160px;
+        height: 60px;
+        background-color: white;
+        border: 1px solid #626262;
+        font-family: playfair display, serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #626262;
+        cursor: pointer;
+        transition:.33s linear ;
+    }
+    .load button:hover{
+        background-color: #626262;
+        color: white;
+    }
+    .blog2 {
+        padding-top: 20px;
+    }
+    footer{
+        .page{
+            float: left;
+            width: 40%;
+            border: 1px solid;
+              
+        }
+        .social{
+            float: right;
+            width: 40%;
+              border: 1px solid;
+        }
+
+    }
